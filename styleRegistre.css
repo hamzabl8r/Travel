@@ -1,0 +1,66 @@
+body{
+    background-color: #4a595d29;
+}
+
+
+li , a{
+    list-style-type: none;
+}
+
+fieldset{
+    height: 600px;
+    width: 300px;
+    background-color: rgba(56, 52, 52, 0.021);
+    margin: 10px;
+    padding: auto;
+    position: relative;
+    top: -30px;
+    left: 55%;
+    border-radius: 15px;
+    
+    
+}
+legend{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+
+}
+input{
+    background-color: transparent;
+    border : solid 1px rgba(62, 76, 79, 0.162); 
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 250px;
+    height: 35px;
+}
+input:hover{
+    background-color: rgb(175, 184, 181);
+}
+
+button{
+    margin: 15px;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid 1px rgba(66, 84, 89, 0.162);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.travel{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    bottom: -120px;
+    left: 20%;
+    margin: 20px;
+    
+}
