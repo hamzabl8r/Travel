@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre </title>
+    <link rel="stylesheet" href="Style/styleRegistre.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    
+    <div class="travel"><a href="index.html">
+        <img src="pic/LogoTRAVEL.png" alt="">
+        </a>
+    </div>
+    <div class="nav">
+        <!-- bloc nav -->
+    </div>
+    <!--
+    <div class="registre">
+        <h1>Registre </h1>
+        
+    </div> 
+    -->
+    <form action="onsubmit">
+        <fieldset >
+            <legend><strong>Registre</strong></legend>
+            <input type="text" placeholder=" First Name :" class="first&last"><br>
+            <input type="text" placeholder="Last Name :" class="first&last"><br>
+            <input type="email" class="email" placeholder="E-mail :" ><br>
+            <input type="password" placeholder="Password : " class="pass"><br>
+            <input type="password" placeholder="Confirm your password : " class="pass"><br>
+            <input type="number"  id="mobile" placeholder="Number Phone : "><br>
+            <label for="">Date of birth : </label>
+            <input type="date"  id="date" >
+            <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div> 
+            <button type="submit"> Registre </button> <br>
+            <a href="Login.html">I've account</a>
+
+            <!--
+                this bloc for Capatch
+            -->
+            <!-- Registre with Google and Apple :   
+                <div class="RegGoogle"></div>
+                <div class="RegApple"></div>
+            -->
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
